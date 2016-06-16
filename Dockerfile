@@ -1,4 +1,4 @@
-FROM golang:cross
+FROM golang:1.6.2-wheezy
 MAINTAINER Liang Ding <dl88250@gmail.com>
 
 ADD . /wide/gogogo/src/github.com/b3log/wide
